@@ -6,8 +6,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
 # ------ SPOTIFY AUTHENTICATION ------ #
-SPOTIPY_CLIENT_ID = "880b1a00d79c4c149bebb7ae37d970f3"
-SPOTIPY_CLIENT_SECRET = "40595feca02e471ca40c36784686cd80"
+SPOTIPY_CLIENT_ID = os.environ.get("SPOTIFY_ID")
+SPOTIPY_CLIENT_SECRET = os.environ.get("SPOTIFY_TOKEN")
 SPOTIPY_REDIRECT_URI = "http://example.com"
 
 sp = spotipy.Spotify(
