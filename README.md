@@ -4,8 +4,11 @@ This python code uses BeautifulSoup to scrape Billboard 100's website for song n
 
 
 # Sample code output
-![Code Output](https://github.com/JBBrian/Billboard100Spotify/blob/b60f07a7a0fef2b22580c3cf4559ca4f0ced44ea/code-output.png)
+![Code Output](https://github.com/JBBrian/Spotify-Time-Machine/blob/e4b2eafeb24ff9fb694aaab13467d5430cac18c9/code-output1.png)
+
+- Some songs may not exist on Spotify so they will be skipped.
+- The code will display a message to show completion
 
 
-# Created playlist
-![Created Playlist](https://github.com/JBBrian/Billboard100Spotify/blob/f1900f71e1a26b7acae734a1a4b3a10cfe7ba990/playlist.png)
+# Created playlist 
+![Created Playlist](https://github.com/JBBrian/Spotify-Time-Machine/blob/e4b2eafeb24ff9fb694aaab13467d5430cac18c9/playlist1.png)
