@@ -9,5 +9,5 @@ This python code uses BeautifulSoup to scrape Billboard 100's website for song n
 - Some songs may not exist on Spotify so they will be skipped.
 
 
-# Created playlist 
+# Created playlist - 80's Summer
 ![Created Playlist](https://github.com/JBBrian/Spotify-Time-Machine/blob/e4b2eafeb24ff9fb694aaab13467d5430cac18c9/playlist1.png)
