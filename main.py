@@ -51,6 +51,9 @@ for track in top_chart:
 playlist = sp.user_playlist_create(user="thebriantapia", name=f"{date} Billboard 100", public=False)
 sp.user_playlist_add_tracks(user=user_id, playlist_id=playlist["id"], tracks=song_uris)
 
+# --- Notify of Completion --- # 
+print('Playlist created, time travel complete.')
+
 
 
 
